@@ -9,7 +9,12 @@ function calculate() {
 
 
 
-    let output = (topa + buttonb)* heighth *0.5;
+    let output = (heighth * (topa + buttonb))*(1/2);
+
+    console.clear();
+    console.log("top = " + topa);
+    console.log("button = " + buttonb);
+    console.log("height = " + heighth);
     
     document.getElementById("answeroutput").innerHTML =  output;
 
