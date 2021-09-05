@@ -11,7 +11,7 @@ function calculate() {
 
     let output = (topa + buttonb)* heighth *0.5;
     
-    document.getElementById("answeroutput").innerHTML = output;
+    document.getElementById("answeroutput").innerHTML =  output;
 
 }
 
